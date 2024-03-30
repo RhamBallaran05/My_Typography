@@ -1,0 +1,35 @@
+body {
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+    background : url(nature.gif) no-repeat;
+    background-size:cover;
+}
+
+#col1{
+    color : rgb(255, 255, 255);
+    text-shadow: 10px;
+    border-color: rgb(0, 155, 142);
+    border: 5px;
+
+
+}
+.img-container{
+    margin: 20px;
+    border: 5px;
+    border-color: white;
+
+}
+.custom-col{
+    animation: fadeInUp 1s ease-in-out;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
